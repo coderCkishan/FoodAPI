@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meals Recipe</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="foodstyle.css">
+</head>
+<body>
+    <!-- Title Box -->
+
+    <section class="text-center" style="background-color:tomato;">
+        <h1>Amazing Meals For Amazing Days.</h1>
+        <p class="para" style="font-style: italic;"> <strong>Type The Ingredient Available At Your Home And Get The Available Meal Recipe Related To That Ingredient.</strong></p>
+
+        <div class="meal-search-box">
+            <input type="text" class="search-control" placeholder="Ingredient" id="search-input">
+            <button type="submit" class="search-btn btn" id="search-btn">
+                <i class="fa fa-search" ></i>
+            </button>
+        </div>
+
+    </section>
+
+    <!-- search-box -->
+
+    <section class="text-center">
+          <h1>Your Search Results:</h1>
+
+          <div id="meal" class="row">
+
+              <!-- <div class="col-md-3">
+                 <div class="card mx-auto" style="width: 100%;">
+                     <img src="img2.jpg" alt="Card-imgage" width="200px" class="card-img-top">
+                 </div> 
+                 <div class="card-body">
+                     <p style="font-family:'Lucida Sans Unicode';" class="card-text">Cupcakes</p>
+                     <button class="recipe-btn">Get Recipe</button>
+                 </div>
+              </div>  -->
+
+            </div>
+            <!-- meal recipes -->
+            <div class="meal-details" >
+                <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+                   <i class="fa fa-close"></i>
+                </button>
+
+            <div class="meal-details-content">
+                <h2 class="recipe-title" style="color: tomato;">
+                    Meals name</h2>
+                    <p class="recipe-category">Category name</p>
+                    <div class="recipe-instruct">
+                        <h3 style="color: tomato;">Instruction:</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, totam tempora nesciunt illum fugit hic. Voluptatem perspiciatis a omnis distinctio nemo, laudantium, architecto deleniti vero, repudiandae voluptatibus saepe aliquid labore deserunt! Quaerat et sapiente quasi?
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur distinctio magni rem eaque sapiente labore, itaque, vitae quasi facilis architecto quo quidem cum laudantium! Aperiam eaque minus illum culpa accusantium.
+                        </p>
+                    </div>
+                    <div class="recipe-meal-img">
+                        <img src="img2.jpg" alt="" style="width: 18rem;" class="img-fluid">
+                    </div>
+                    <div class="recipe-link">
+                       <a href="#" target="_blank">Watch Video</a>
+                    </div>
+                  </div>
+            </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="food.js"></script>     
+</body>
+</html>

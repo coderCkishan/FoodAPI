@@ -1,0 +1,163 @@
+ /* Title Section */
+ .text-center{
+    padding: 3.8rem 0;     
+}
+.para{
+    margin: 1.2rem 0;
+    padding: 1.0rem 1.2rem;
+}
+.search-control{
+    padding: 0.1rem;
+    font-size: 1.1rem;
+    font-family: 'Lucida Sans Unicode';
+    outline: 0;
+    border: 1px solid rgb(255, 94, 0);
+    color: rgb(109, 89, 80);
+    border-radius: 1rem 1rem;
+}
+.search-control::placeholder{
+    color: rgb(109, 89, 80);
+}
+.search-btn{
+    width: 45px;
+    height: 45px;
+    font-size: 1.1rem;
+    background: rgb(109, 89, 80);
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+}
+
+/* search results */
+
+#meal{
+    margin: 3rem 3.5rem;
+}
+.col-md-3{
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 21px -12px rgba(0,0,0,0.79);
+    margin: 12px 0px;
+}
+.card mx-auto{
+    width: 100%;
+    display: block;
+    
+}
+.notfound{
+    grid-template-columns: 1fr!important;
+    color: rgb(109, 89, 80);
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 100%;
+}
+.card-text{
+    font-size: 1.5rem;
+}
+.card-body{
+    padding: 1.5rem 0.5rem;
+}
+.recipe-btn{
+   text-decoration: none;
+   color: #fff;
+   background: tomato;
+   font-weight: 500;
+   font-size: 1rem;
+   padding: 0.75rem 0;
+   display: block;
+   width: 125px;
+   margin: 1rem auto;
+   border-radius: 2rem;
+   transition: all 0.4s linear;
+}
+.recipe-btn:hover{
+   background: tomato;
+   color: rgba(0,0,0,0.79);
+   border-radius: 1rem 1rem;
+}
+/* meal recipe box */
+.meal-details{
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   color: #fff;
+   background: rgb(109, 89, 80);
+   border-radius: 1rem;
+   width: 90%;
+   height: 90%;
+   overflow-y: scroll;
+   display: none;
+   padding: 2rem 0;
+}
+.meal-details::-webkit-scrollbar{
+   width: 10px;
+}
+.meal-details::-webkit-scrollbar-thumb{
+  background: #f0f0f0;
+  border-radius: 2rem;
+}
+.showRecipe{
+  display: block;
+}
+.meal-details-content{
+  margin: 2rem;
+}
+
+.meal-details-content p{
+  padding: 1rem 0;
+}
+.recipe-close-btn{
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  font-size: 1.5rem;
+  background: tomato;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+}
+.recipe-close-btn:hover{
+  color: #fff;
+}
+.recipe-title{
+  letter-spacing: 3px;
+  padding-bottom: 1rem;
+}
+.recipe-category{
+  background: #fff;
+  font-weight: 650;
+  font-size: large;
+  color: tomato;
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.3rem;
+  width: 100px;
+}
+.recipe-instruct{
+  padding: 1rem 0;
+}
+.recipe-meal-img img{
+  width: 200px;
+  height: 200px;
+  border-radius: 1rem 1rem;
+}
+.recipe-link{
+  margin: 1.4rem 0;
+}
+.recipe-link a{
+  color:#fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: all 0.4s linear;
+}
+.recipe-link a:hover{
+    color: tomato;
+    opacity: 0.8;
+}
+
